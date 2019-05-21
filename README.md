@@ -4,7 +4,7 @@ Welcome to the Lab Resources Repo! Lab Resources is a resource page made for hos
 
 The tools we have compiled thus far are:
 #### R-Resources
-* [Colorblind friendly color schemes](https://github.com/meyermicrobiolab/R-Resources/wiki/Colorblind-friendly-color-schemes)
+* [Color Palettes](https://github.com/meyermicrobiolab/R-Resources/wiki/Color-Palettes)
 * [Exploration of Data in Phyloseq](https://github.com/meyermicrobiolab/R-Resources/wiki/Exploration-of-Data-in-Phyloseq)
 * [Options for filtering out Low Abundance OTUS/Sequence Variants](https://github.com/meyermicrobiolab/R-Resources/wiki/Filtering-out-Low-Abundance-OTUS-Sequence-Variants)
 * [Sorting Samples by Metadata](https://github.com/meyermicrobiolab/R-Resources/wiki/Sorting-Samples-by-Metadata)
