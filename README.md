@@ -1,10 +1,10 @@
 
 #### Welcome
-Welcome to the Lab Resources Repo! Lab Resources is a resource page made for hosting code snippets used for processing bioinformatic data in R and the HiPer Gator. Most of our Resources can be found on our [wiki](https://github.com/meyermicrobiolab/Lab-Resources/wiki) page. If this is your first time seeing this page start out by reading the [expectations](https://github.com/meyermicrobiolab/Meyer_Lab_Resources/wiki/Meyer-Lab-Expectations) and [basics](https://github.com/meyermicrobiolab/Meyer_Lab_Resources/wiki/Basic-Metagenomics-Workflow) pages.
+Welcome to the Lab Resources Repo! Lab Resources is a resource page made for hosting commonly needed code snippets used for processing bioinformatic data in R and the HiPer Gator. Most of our Resources can be found on our [wiki](https://github.com/meyermicrobiolab/Lab-Resources/wiki) page. If this is your first time seeing this page start out by reading the [expectations](https://github.com/meyermicrobiolab/Meyer_Lab_Resources/wiki/Meyer-Lab-Expectations) page.
 
 ##### R-Resources
 
-* [Inlcuding Libraries](https://github.com/meyermicrobiolab/Meyer_Lab_Resources/wiki/Libraries)
+* [Including Libraries](https://github.com/meyermicrobiolab/Meyer_Lab_Resources/wiki/Libraries)
 * [Color Palettes](https://github.com/meyermicrobiolab/Meyer_Lab_Resources/wiki/Color-Palettes)
 * [Exploration of Data in Phyloseq](https://github.com/meyermicrobiolab/R-Resources/wiki/Exploration-of-Data-in-Phyloseq)
 * [Options for filtering out Low Abundance OTUS/Sequence Variants](https://github.com/meyermicrobiolab/R-Resources/wiki/Filtering-out-Low-Abundance-OTUS-Sequence-Variants)
