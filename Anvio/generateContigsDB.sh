@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=generate_contigs_gff_%j
+#SBATCH --job-name=generate_contigs_%j
 #SBATCH --output=generate_contigs_%j.log
 #SBATCH --error=generate_contigs%j.err
 #SBATCH --mail-type=BEGIN,END,FAIL
