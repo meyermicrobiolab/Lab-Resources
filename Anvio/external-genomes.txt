@@ -13,4 +13,4 @@ Halo_707B3     r_H_2700988618.db
 Halo_707D4     r_H_2700988619.db
 Halo_707D7     r_H_2700988620.db
 Halo_FL8      r_H_2700988621.db
-Endo_WP70      r_E_2775507270.db
+Endo_WP70     r_E_2775507270.db
