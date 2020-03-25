@@ -5,7 +5,7 @@ output: github_document
 
 ## Making a Gantt Chart
 
-This guid is based off of [this](https://www.molecularecologist.com/2019/01/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/) tutorial. Check it out if you want a more indepth explanation.
+This guide is based off of [this](https://www.molecularecologist.com/2019/01/simple-gantt-charts-in-r-with-ggplot2-and-the-tidyverse/) tutorial. Check it out if you want a more indepth explanation.
 
 ### Required
 To start you will need a tab or comma delimted file of your activities and dates that you want to use to make the timeline. For our very simple graph we have our item number, the activity, the start date, and the end date columns. You will also need to have the R package _tidyverse_.
