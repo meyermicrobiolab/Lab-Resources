@@ -1,8 +1,8 @@
-
-names<-dir(path=".", pattern = "^[L]")
-for(i in names){
-  file.rename(paste0(i, "/results.xprs"),paste0(noquote(substring(i,1,4)),".txt"))
-}
+##renames reults.xprs files by the directory starting with LK (the new Florida Samples) Not important.
+# names<-dir(path=".", pattern = "^[L]")
+# for(i in names){
+#  file.rename(paste0(i, "/results.xprs"),paste0(noquote(substring(i,1,4)),".txt"))
+# }
 
 library(dplyr)
 
