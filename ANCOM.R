@@ -1,4 +1,3 @@
-###################### ANCOM TEST OF DIFFERENTIALLY ABUNDANT FAMILIES
 #ANCOM Function - compare across multiple treatments groups using a compositional appproach
 #https://sites.google.com/site/siddharthamandal1985/research
 
@@ -128,7 +127,6 @@ ancom.W = function(otu_data,var_data,
   }
 
 
-
 ANCOM.main = function(OTUdat,Vardat,
                       adjusted,repeated,
                       main.var,adj.formula,
@@ -152,9 +150,6 @@ ANCOM.main = function(OTUdat,Vardat,
                           multcorr,sig)
 
   W_stat       <- W.detected
-
-
-  ### Bubble plot
 
   W_frame = data.frame(otu.names,W_stat,row.names=NULL)
   W_frame = W_frame[order(-W_frame$W_stat),]
