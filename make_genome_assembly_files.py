@@ -62,7 +62,7 @@ for i in genomes:
     quality_control.write("iu-filter-quality-minoche "+i+".txt\n")
 quality_control.write("\ngzip *.fastq\n\n#remove illumina adaptors\nmodule load trimmomatic\n")
 for i in genomes:
-    quality_control.write("trimmomatic PE -phred33 -summary trim_stats.txt "+i+"-QUALITY_PASSED_R1.fastq.gz "+i+"-QUALITY_PASSED_R2.fastq.gz "+i+"_trimmed_paired_R1.fastq.gz "+i+"_trimmed_unpaired_R1.fastq.gz "+i+"_trimmed_paired_R2.fastq.gz "+i+"_trimmed_unpaired_R2.fastq.gz ILLUMINACLIP:${HPC_TRIMMOMATIC_ADAPTER}/TruSeq3-PE.fa:2:30:10 ILLUMINACLIP:${HPC_TRIMMOMATIC_ADAPTER}/NexteraPE-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36\n")
+    quality_control.write("trimmomatic PE -phred33 -summary "+i+"_trim_stats.txt "+i+"-QUALITY_PASSED_R1.fastq.gz "+i+"-QUALITY_PASSED_R2.fastq.gz "+i+"_trimmed_paired_R1.fastq.gz "+i+"_trimmed_unpaired_R1.fastq.gz "+i+"_trimmed_paired_R2.fastq.gz "+i+"_trimmed_unpaired_R2.fastq.gz ILLUMINACLIP:${HPC_TRIMMOMATIC_ADAPTER}/TruSeq3-PE.fa:2:30:10 ILLUMINACLIP:${HPC_TRIMMOMATIC_ADAPTER}/NexteraPE-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36\n")
 quality_control.write("\n\nfastqc *trimmed_paired_R*.fastq.gz\n")
 
 # ###Write the Assembly File
